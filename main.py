@@ -5,7 +5,7 @@ NAME = 'TomzzHighCastle(THC)'
 #Main
 def main():
     print("Welcome to", NAME)
-    #Plant.print_data(Plant)
+    Plant.print_data(Plant)
     gGUI.gui(gGUI)
 
 if __name__ == '__main__':
