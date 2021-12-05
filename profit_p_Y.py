@@ -3,7 +3,7 @@ from case_analysis import Chance
 import numpy as np
 
 class profit_per_year:
-    def calc_p_p_y(self, cost_p_warehouse = 1500000, number_of_warehouses = 4):
+    def calc_p_p_y(self, cost_p_warehouse = 1000000, number_of_warehouses = 1):
         turnover = np.array(turnover_per_year.calc_t_p_y(turnover_per_year))
         profit =  turnover - (cost_p_warehouse * number_of_warehouses)
         return profit

@@ -4,7 +4,7 @@ from case_analysis import Chance
 import numpy as np
 
 class yield_per_year:
-    def calc_y_p_y(self, number_of_plants = 3000, number_of_warehouses = 4):
+    def calc_y_p_y(self, number_of_plants = 3000, number_of_warehouses = 1):
         yld = np.array(Yield.calc_yield(Yield))
         cyc = np.array(Cycles.calc_cycles(Cycles))
         yield_p_y = ((yld * cyc) * (number_of_plants * number_of_warehouses))

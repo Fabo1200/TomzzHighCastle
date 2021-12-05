@@ -40,14 +40,14 @@ class gGUI:
         l1 = Label(frm, text=self.best_case+ "Profit per Year:       " + str(profit_per_year.calc_p_p_y(profit_per_year)[0] / 1000000) + self.mio_euro).grid(column=0, row=0)
         l2 = Label(frm, text=self.average_case + "Profit per Year: " + str(profit_per_year.calc_p_p_y(profit_per_year)[1] / 1000000) + self.mio_euro).grid(column=0, row=1)
         l3 = Label(frm, text=self.worst_case + "Profit per Year:     " + str(profit_per_year.calc_p_p_y(profit_per_year)[2] / 1000000) + self.mio_euro).grid(column=0, row=2)
-        
-        l4 = Label(frm,  text=self.best_case + "Cycles per Year:     " + str(Cycles.calc_cycles(Cycles)[0]) + self.cyc).grid(column=0, row=3)
-        l5 = Label(frm,  text=self.average_case + "Cycles per Year:     " + str(Cycles.calc_cycles(Cycles)[1]) + self.cyc).grid(column=0, row=4)
-        l6 = Label(frm,  text=self.worst_case + "Cycles per Year:     " + str(Cycles.calc_cycles(Cycles)[2]) + self.cyc).grid(column=0, row=5)
-        
-        l7 = Label(frm,  text=self.best_case + "Turnover per Year:     " + str(turnover_per_year.calc_t_p_y(profit_per_year)[0] / 1000000) + self.mio_euro).grid(column=0, row=6)
-        l8 = Label(frm,  text=self.average_case + "Turnover per Year:     " + str(turnover_per_year.calc_t_p_y(profit_per_year)[1] / 1000000) + self.mio_euro).grid(column=0, row=7)
-        l9 = Label(frm,  text=self.worst_case + "Turnover per Year:     " + str(turnover_per_year.calc_t_p_y(profit_per_year)[2] / 1000000) + self.mio_euro).grid(column=0, row=8)
+
+        l4 = Label(frm,  text=self.best_case + "Turnover per Year:     " + str(turnover_per_year.calc_t_p_y(profit_per_year)[0] / 1000000) + self.mio_euro).grid(column=0, row=3)
+        l5 = Label(frm,  text=self.average_case + "Turnover per Year:     " + str(turnover_per_year.calc_t_p_y(profit_per_year)[1] / 1000000) + self.mio_euro).grid(column=0, row=4)
+        l6 = Label(frm,  text=self.worst_case + "Turnover per Year:     " + str(turnover_per_year.calc_t_p_y(profit_per_year)[2] / 1000000) + self.mio_euro).grid(column=0, row=5)
+              
+        l7 = Label(frm,  text=self.best_case + "Cycles per Year:     " + str(Cycles.calc_cycles(Cycles)[0]) + self.cyc).grid(column=0, row=6)
+        l8 = Label(frm,  text=self.average_case + "Cycles per Year:     " + str(Cycles.calc_cycles(Cycles)[1]) + self.cyc).grid(column=0, row=7)
+        l9 = Label(frm,  text=self.worst_case + "Cycles per Year:     " + str(Cycles.calc_cycles(Cycles)[2]) + self.cyc).grid(column=0, row=8)
         
         l10 = Label(frm, text=self.best_case + "Yield per Year:     " + str(yield_per_year.calc_y_p_y(yield_per_year)[0] / 1000000) + self.tn).grid(column=1, row=0)
         l11 = Label(frm, text=self.average_case + "Yield per Year:     " + str(yield_per_year.calc_y_p_y(yield_per_year)[1] / 1000000) + self.tn).grid(column=1, row=1)
