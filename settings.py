@@ -17,7 +17,7 @@ class settings:
     words = ["Best Case:","Average Case:", "Worst Case:"]
     price_p_g = 6
     average_cycles = 4
-    average_yield = 10
+    average_yield = 100
     cost_p_warehouse = 1000000
     number_of_plants = 3000
     number_of_warehouses = 1

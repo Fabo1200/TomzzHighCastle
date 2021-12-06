@@ -1,4 +1,3 @@
-import tkinter
 from plant import Plant
 from window import gGUI
 from settings import settings
