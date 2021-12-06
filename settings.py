@@ -1,7 +1,7 @@
 class settings:
     NAME = 'TomzzHighCastle(THC)'
-    WIDTH=1000 
-    HEIGHT=800
+    WIDTH=1200 
+    HEIGHT=1000
     WID_HEI_str = str(WIDTH)  + 'x' + str(HEIGHT)
     best_case = "[Best Case] "
     average_case = "[Average Case] "
@@ -15,3 +15,9 @@ class settings:
     ypy = "Yield per Year: "
     ypp = "Yield per Plant: "
     words = ["Best Case:","Average Case:", "Worst Case:"]
+    price_p_g = 6
+    average_cycles = 4
+    average_yield = 10
+    cost_p_warehouse = 1000000
+    number_of_plants = 3000
+    number_of_warehouses = 1
