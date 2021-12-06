@@ -1,10 +1,10 @@
 import tkinter
 from plant import Plant
 from window import gGUI
-NAME = 'TomzzHighCastle(THC)'
+from settings import settings
 #Main
 def main():
-    print("Welcome to", NAME)
+    print("Welcome to", settings.NAME)
     Plant.print_data(Plant)
     gGUI.gui(gGUI)
 

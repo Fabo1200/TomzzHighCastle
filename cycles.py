@@ -1,4 +1,5 @@
 from case_analysis import Chance
+from settings import settings
 
 class Cycles:
         def calc_cycles(self, average_cycles = 4):
@@ -8,4 +9,4 @@ class Cycles:
             return cycle_data
         def print_cycle(self):
             for x in range(len(Cycles.calc_cycles(self))):
-                print('[Cycles]: ',Chance.words[x],str(Cycles.calc_cycles(Cycles)[x]),'Cycles')
+                print('[Cycles]: ',settings.words[x],str(Cycles.calc_cycles(Cycles)[x]),'Cycles')

@@ -1,6 +1,7 @@
 from yield_p_Y import yield_per_year
 from case_analysis import Chance
 import numpy as np
+from settings import settings
 
 class turnover_per_year:
     def calc_t_p_y(self, price_p_g = 6):
@@ -13,6 +14,6 @@ class turnover_per_year:
         return turnover
     def print_t_p_y(self):
             for x in range(len(turnover_per_year.calc_t_p_y(self))):
-                print('[Turnover per Year]: ',Chance.words[x],str(turnover_per_year.calc_t_p_y(self)[x]/ 1000000),'Million Euro')
+                print('[Turnover per Year]: ',settings.words[x],str(turnover_per_year.calc_t_p_y(self)[x]/ 1000000),'Million Euro')
 
     

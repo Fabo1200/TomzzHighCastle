@@ -1,4 +1,5 @@
 from case_analysis import Chance
+from settings import settings
 
 class Yield:
         def calc_yield(self, average_yield = 100):         
@@ -9,4 +10,4 @@ class Yield:
         
         def print_yield(self):   
             for x in range(len(Yield.calc_yield(Yield))):
-                print('[Yield]: ',Chance.words[x],str(Yield.calc_yield(Yield)[x]),'g')
+                print('[Yield]: ',settings.words[x],str(Yield.calc_yield(Yield)[x]),'g')
