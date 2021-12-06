@@ -1,6 +1,5 @@
 from cycles import Cycles
 from yield_p_P import Yield
-from case_analysis import Chance
 import numpy as np
 from settings import settings
 

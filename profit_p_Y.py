@@ -1,5 +1,4 @@
 from turnover_p_Y import turnover_per_year
-from case_analysis import Chance
 import numpy as np
 from settings import settings
 

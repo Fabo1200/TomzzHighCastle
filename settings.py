@@ -21,3 +21,5 @@ class settings:
     cost_p_warehouse = 1000000
     number_of_plants = 3000
     number_of_warehouses = 1
+    best_case_chance = 1.5
+    worst_case_chance = 0.5
