@@ -9,6 +9,5 @@ class profit_per_year:
         return profit
     def print_p_p_y(self):
         for x in range(len(profit_per_year.calc_p_p_y(self))):
-            print('[Profit per Year]: ',settings.words[x],str(profit_per_year.calc_p_p_y(self)[x] / 1000000),'Million Euro')
-
-                    
+            print('[Profit per Year]: ',settings.words[x],str(profit_per_year.calc_p_p_y(self)[x] / 1000000),'Million Euro')                    
+            
